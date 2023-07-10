@@ -1,6 +1,9 @@
 # FahasaUI
  Front-end UI Clone of fahasa.com
 
+## Demo
+
+Link: https://quochung-cyou.github.io/FahasaUI/
 
 ## Demo image
 ![](mockup/1.jpg)
