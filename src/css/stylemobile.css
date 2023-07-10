@@ -1,0 +1,97 @@
+@media screen and (max-width: 992px) {
+    .top-bar-desktop {
+        display: none !important;
+    }
+
+    .top-slider-right {
+        display: none !important;
+    }
+
+    .top-bar-mobile {
+        display: flex !important;
+    }
+}
+.top-bar-category-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-bar-mobile {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.top-bar-child-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #C92127;
+}
+
+.top-bar-search-mobile {
+    position: relative;
+    width: calc(100% - 104px);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 8px 10px 12px 0px;
+}
+
+.top-bar-search-mobile input {
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+    padding: 0 80px 0 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #545759;
+    background-color: white;
+}
+
+.top-banner-mobile {
+    text-align: center;
+    background-color: #C92127;
+    width: 100%;
+}
+
+.top-banner-mobile>a>img {
+    max-width: 130px;
+    max-height: 30px;
+    margin-top: 5px;
+}
+
+.ico_menu_white {
+    background: url("https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_menu_white.svg") no-repeat center center;
+    background-size: contain;
+    height: 34px;
+    width: 34px;
+}
+
+.icon_cart_white {
+    background: url("https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_shopping_cart_white.svg") no-repeat center center;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.login-cutomer-icon {
+    background: url("https://cdn0.fahasa.com/skin/frontend/base/default/images/ico_thongtintk.svg") no-repeat center center;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.fill-white {
+    fill: white !important;
+}

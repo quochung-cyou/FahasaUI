@@ -1,0 +1,275 @@
+.lamdep-firsttitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.lamdep-firsttitle span {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.lamdep-firsttitle span:nth-child(3) {
+    color: #C92127;
+}
+
+.lamdep-container {
+    display: flex;
+    
+    width: 100%;
+}
+
+.lamdep-container-left {
+    width: 30%;
+    margin-right: 10px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.lamdep-container-right {
+    width: 70%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.nhomsanpham {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.nhomsanpham span {
+    font-size: 14px;
+    padding: 6px;
+}
+
+.nhomsanpham span:nth-child(1) {
+    font-weight: bold;
+}
+
+.nhomsanpham span:nth-child(2) {
+    color: gray;
+    margin-left: 10px;
+}
+
+.nhomsanpham span:nth-child(3) {
+    color: #C92127;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.nhomsanpham span:nth-child(4) {
+    color: gray;
+    margin-left: 15px;
+}
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.filter-box h2 {
+    font-size: 14px;
+    padding: 6px;
+}
+
+.option-checkbox {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+
+}
+
+.option-checkbox input::before {
+    background: transparent url(https://cdn0.fahasa.com/skin/frontend/base/default/images/manapro_filtercheckboxes/ico_uncheck.png) 0 50% no-repeat;
+    content: "";
+    visibility: visible;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.option-checkbox input {
+    margin-right: 10px;
+    margin-left: 20px;
+    visibility: hidden;
+    
+}
+
+.option-checkbox input:checked {
+    visibility: hidden;
+}
+.option-checkbox input:checked::before {
+    display: inline-block;
+    background: transparent url(https://cdn0.fahasa.com/skin/frontend/base/default/images/manapro_filtercheckboxes/ico_checked.png) 0 50% no-repeat;
+    content: "";
+    visibility: visible;
+    width: 16px;
+    height: 16px;
+}
+
+.option-checkbox label {
+    font-size: 14px;
+    color: gray;
+
+}
+
+.option-checkbox label:hover {
+    color: #C92127;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: translate(5px, 0px);
+}
+
+.m-xemthem {
+    margin-top: 10px;
+    color: #F7941E;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    width: fit-content;
+    padding-right: 20px;
+    background: url('https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_morong.png') no-repeat right;
+}
+
+.sapxeptheo {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sapxeptheo .selectbox-dropdown-macdinh {
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+    margin-left: 30px;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 20px;
+}
+
+.sapxeptheo .selectbox-dropdown-macdinh::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 9px;
+    background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_dropdown.png) no-repeat center left;
+}
+
+.selectbox-dropdown {
+    position: relative;
+}
+
+.selectbox-dropdown:hover .selectbox-dropdown-content {
+    display: flex;
+
+}
+
+.selectbox-dropdown-content {
+    z-index: 20;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    width: calc(100% - 29px);
+    top: calc(100% + 6px);
+    border-top: 0px;
+    left: 19px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.selectbox-dropdown-content a {
+    font-size: 14px;
+    padding: 6px;
+    color: gray;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.selectbox-dropdown-content a:hover {
+    background-color: #F7941E;
+    transform: scale(1.1);
+    color: white;
+}
+
+.lamdepi-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.lamdepi-container-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    width: calc(100%/4);
+    margin-top: 10px;
+}
+
+.lamdepi-container-item:hover {
+    box-shadow: 0 0 5px #ccc;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.lamdepi-container-item:hover .flashsale-container-item-image {
+    box-shadow: 0 -5px 5px -5px #ccc, -5px 0 5px -5px #ccc, 5px 0 5px -5px #ccc;
+}
+
+
+.lamdepi-container-item-image {
+    height: 40%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lamdepi-container-item-image img {
+    width: 70%;
+    height: auto;
+}
+
+.lamdepi-price-special {
+    font-size: 1.15em;
+    color: #C92127;
+    font-weight: 600;
+}
+
+.lamdepi-price-old {
+    color: #888888;
+    text-decoration: line-through;
+    font-size: 0.9em;
+}
