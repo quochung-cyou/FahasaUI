@@ -1278,6 +1278,7 @@ img {
     width: 100%;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #9FA7AB;
@@ -1287,8 +1288,7 @@ img {
 }
 
 .dangkynhanbantin-title {
-    font-size: 1.6em;
-    ;
+    font-size: 1.6em;;
     color: #fff;
     letter-spacing: 0px;
     margin-left: 30px;
@@ -1297,7 +1297,7 @@ img {
 .nhapemail {
     margin-left: 20px;
     position: relative;
-    width: 50%;
+    width: 70%;
     height: 50px;
 }
 
@@ -1340,6 +1340,7 @@ img {
     background-color: white;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     border-bottom-left-radius: 10px;
@@ -1349,11 +1350,13 @@ img {
 .footer-container-left {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     padding: 15px;
     border-right: 1px solid #cecece;
 
 }
+
+
 
 .address-footer {
     font-size: 13px;
